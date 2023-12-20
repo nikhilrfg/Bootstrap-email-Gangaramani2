@@ -1,0 +1,147 @@
+:root{ 
+   
+    --bg-color: rgb(191, 191, 191);
+ } 
+
+ body{
+    /* height: 100vh; */
+    background-color: var(--bg-color)
+}
+
+ 
+.container-fluid{
+    background-color: rgba(140, 126, 126, 0.995);
+}
+
+  /* body{  
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: aquamarine; 
+  } */
+
+.my-container{
+    /* height: 100%; */
+    min-height: calc(100vh);
+}
+.my-row{
+   /* min-height: 100%; */
+   height: calc(100%);
+  
+}
+
+.btn{
+    
+    box-sizing: border-box; 
+    background-color: rgb(13, 84, 84);
+    border-color: black; 
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    
+    
+    
+    
+
+}
+
+  .list-group {
+    border-color: black;
+    display: flex;
+    flex:auto;
+    max-width: 100%; 
+    flex-direction:column; 
+    overflow-y: auto; 
+    text-wrap: wrap;   
+    flex-direction:column;
+    overflow-y: auto;
+    text-wrap: wrap; 
+    justify-content: flex-start
+    
+
+    
+    
+ }  
+
+ .list-group-item {
+    background-color: azure;
+    border-color: black; 
+    max-width: 100%; /*Avoid exceeding the container's width */
+    text-align:center;
+    text-align: start;
+    text-align: justify;
+    text-wrap: top;
+    /* align-items: center; */
+    justify-content: flex-start;    
+    
+    
+ }
+
+  .form-control {
+    background-color: azure;
+    border-color: black; 
+    flex:auto; 
+    max-width: 100%; /* Avoid exceeding the container's width */
+    text-wrap: top; 
+   
+} 
+
+ 
+
+.grey-border{
+    border: 1px solid rgb(236, 234, 234);
+    box-sizing: border-box;
+}
+
+.black-border{
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+/* .email-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+} */
+
+/* .form-control mb{
+    border-color: black;
+} */
+
+/*.email-list{
+    height: 98vh;
+
+} */
+
+.responsive-height-y-scroll{
+
+    background-color: azure;
+    height: 80vh;
+    
+}
+
+
+.card{ 
+    background-color: azure;
+    border-color: black; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+}
+
+@media (max-width: 575px){
+    .list-group{
+        height: 30vh;
+    }
+}
+
+@media(min-width:576px){
+    .list-group{
+        height: 100vh;
+    }
+
+}
+
+
+
